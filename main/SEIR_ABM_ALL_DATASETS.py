@@ -277,9 +277,8 @@ for file in csv_files:
     params_path = os.path.join(exp_dir, f"SEIR_pinn_learned_params_and_errors_beta{param_to_str(beta_abm)}_sigma{param_to_str(sigma_true)}_gamma{param_to_str(gamma_true)}.csv")
     params_df.to_csv(params_path, index=False)
     
-    # save model state and raw params
-    state = {'model_state_dict': model.state_dict(),
-             'beta_est': b.detach().cpu().numpy().tolist(),
+    # save model raw params
+    state = {'beta_est': b.detach().cpu().numpy().tolist(),
              'sigma_est': s.detach().cpu().numpy().tolist(),
              'gamma_est': g.detach().cpu().numpy().tolist(),             
              'N_pop': N_pop, 't_min': t_min, 't_max': t_max}
