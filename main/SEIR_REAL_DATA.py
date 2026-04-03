@@ -263,9 +263,8 @@ params_learned_values = pd.DataFrame([{'beta':float(b.item()), 'sigma':float(s.i
 params_errors_df = pd.DataFrame([{'sigma':sigma_error, 'gamma':gamma_error}])
 params_df = pd.concat([params_learned_values, params_errors_df], ignore_index=True)
     
-# save model state and raw params
-state = {'model_state_dict': model.state_dict(),
-         'beta_est': b.detach().cpu().numpy().tolist(),
+# save model  raw params
+state = {'beta_est': b.detach().cpu().numpy().tolist(),
          'sigma_est': s.detach().cpu().numpy().tolist(),
          'gamma_est': g.detach().cpu().numpy().tolist(),
          'N_pop': N_pop, 't_min': t_min, 't_max': t_max}
