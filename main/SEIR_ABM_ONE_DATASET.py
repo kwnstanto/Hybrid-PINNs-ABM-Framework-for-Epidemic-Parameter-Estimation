@@ -238,8 +238,7 @@ params_path = os.path.join(out_dir, "seir_pinn_learned_params.csv")
 params_df.to_csv(params_path, index=False)
 
 # save model state and raw params
-state = {'model_state_dict': model.state_dict(),
-         'beta': b.detach().cpu().numpy().tolist(),
+state = {'beta': b.detach().cpu().numpy().tolist(),
          'sigma': s.detach().cpu().numpy().tolist(),
          'gamma': g.detach().cpu().numpy().tolist(),
          'N_pop': N_pop, 't_min': t_min, 't_max': t_max}
