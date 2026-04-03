@@ -1,0 +1,258 @@
+(venv) vasilis@vasilis-Katana-GF66-11UC:~/seir_model$ python SEIR_uniform_beta.py 
+Initial infection status counts:
+Infection_Status
+S    88220
+I        5
+Name: count, dtype: int64
+[1/125] Running β=0.05, σ=0.16, γ=0.08
+    Saved seir_u_beta0p05_sigma0p16_gamma0p08.csv | Peak I 31440 at day 37
+[2/125] Running β=0.05, σ=0.16, γ=0.09
+    Saved seir_u_beta0p05_sigma0p16_gamma0p09.csv | Peak I 28931 at day 37
+[3/125] Running β=0.05, σ=0.16, γ=0.1
+    Saved seir_u_beta0p05_sigma0p16_gamma0p1.csv | Peak I 26438 at day 36
+[4/125] Running β=0.05, σ=0.16, γ=0.11
+    Saved seir_u_beta0p05_sigma0p16_gamma0p11.csv | Peak I 24104 at day 36
+[5/125] Running β=0.05, σ=0.16, γ=0.12
+    Saved seir_u_beta0p05_sigma0p16_gamma0p12.csv | Peak I 22172 at day 36
+[6/125] Running β=0.05, σ=0.18, γ=0.08
+    Saved seir_u_beta0p05_sigma0p18_gamma0p08.csv | Peak I 32856 at day 34
+[7/125] Running β=0.05, σ=0.18, γ=0.09
+    Saved seir_u_beta0p05_sigma0p18_gamma0p09.csv | Peak I 30186 at day 34
+[8/125] Running β=0.05, σ=0.18, γ=0.1
+    Saved seir_u_beta0p05_sigma0p18_gamma0p1.csv | Peak I 27527 at day 35
+[9/125] Running β=0.05, σ=0.18, γ=0.11
+    Saved seir_u_beta0p05_sigma0p18_gamma0p11.csv | Peak I 25570 at day 34
+[10/125] Running β=0.05, σ=0.18, γ=0.12
+    Saved seir_u_beta0p05_sigma0p18_gamma0p12.csv | Peak I 23575 at day 34
+[11/125] Running β=0.05, σ=0.2, γ=0.08
+    Saved seir_u_beta0p05_sigma0p2_gamma0p08.csv | Peak I 34274 at day 34
+[12/125] Running β=0.05, σ=0.2, γ=0.09
+    Saved seir_u_beta0p05_sigma0p2_gamma0p09.csv | Peak I 31341 at day 34
+[13/125] Running β=0.05, σ=0.2, γ=0.1
+    Saved seir_u_beta0p05_sigma0p2_gamma0p1.csv | Peak I 28715 at day 32
+[14/125] Running β=0.05, σ=0.2, γ=0.11
+    Saved seir_u_beta0p05_sigma0p2_gamma0p11.csv | Peak I 26523 at day 33
+[15/125] Running β=0.05, σ=0.2, γ=0.12
+    Saved seir_u_beta0p05_sigma0p2_gamma0p12.csv | Peak I 24362 at day 32
+[16/125] Running β=0.05, σ=0.22, γ=0.08
+    Saved seir_u_beta0p05_sigma0p22_gamma0p08.csv | Peak I 35452 at day 32
+[17/125] Running β=0.05, σ=0.22, γ=0.09
+    Saved seir_u_beta0p05_sigma0p22_gamma0p09.csv | Peak I 32690 at day 32
+[18/125] Running β=0.05, σ=0.22, γ=0.1
+    Saved seir_u_beta0p05_sigma0p22_gamma0p1.csv | Peak I 29765 at day 31
+[19/125] Running β=0.05, σ=0.22, γ=0.11
+    Saved seir_u_beta0p05_sigma0p22_gamma0p11.csv | Peak I 27320 at day 31
+[20/125] Running β=0.05, σ=0.22, γ=0.12
+    Saved seir_u_beta0p05_sigma0p22_gamma0p12.csv | Peak I 25200 at day 31
+[21/125] Running β=0.05, σ=0.24, γ=0.08
+    Saved seir_u_beta0p05_sigma0p24_gamma0p08.csv | Peak I 36097 at day 31
+[22/125] Running β=0.05, σ=0.24, γ=0.09
+    Saved seir_u_beta0p05_sigma0p24_gamma0p09.csv | Peak I 33414 at day 31
+[23/125] Running β=0.05, σ=0.24, γ=0.1
+    Saved seir_u_beta0p05_sigma0p24_gamma0p1.csv | Peak I 30652 at day 30
+[24/125] Running β=0.05, σ=0.24, γ=0.11
+    Saved seir_u_beta0p05_sigma0p24_gamma0p11.csv | Peak I 28312 at day 30
+[25/125] Running β=0.05, σ=0.24, γ=0.12
+    Saved seir_u_beta0p05_sigma0p24_gamma0p12.csv | Peak I 26328 at day 30
+[26/125] Running β=0.06, σ=0.16, γ=0.08
+    Saved seir_u_beta0p06_sigma0p16_gamma0p08.csv | Peak I 33620 at day 34
+[27/125] Running β=0.06, σ=0.16, γ=0.09
+    Saved seir_u_beta0p06_sigma0p16_gamma0p09.csv | Peak I 31254 at day 35
+[28/125] Running β=0.06, σ=0.16, γ=0.1
+    Saved seir_u_beta0p06_sigma0p16_gamma0p1.csv | Peak I 28413 at day 34
+[29/125] Running β=0.06, σ=0.16, γ=0.11
+    Saved seir_u_beta0p06_sigma0p16_gamma0p11.csv | Peak I 26273 at day 34
+[30/125] Running β=0.06, σ=0.16, γ=0.12
+    Saved seir_u_beta0p06_sigma0p16_gamma0p12.csv | Peak I 24374 at day 34
+[31/125] Running β=0.06, σ=0.18, γ=0.08
+    Saved seir_u_beta0p06_sigma0p18_gamma0p08.csv | Peak I 35215 at day 33
+[32/125] Running β=0.06, σ=0.18, γ=0.09
+    Saved seir_u_beta0p06_sigma0p18_gamma0p09.csv | Peak I 32172 at day 33
+[33/125] Running β=0.06, σ=0.18, γ=0.1
+    Saved seir_u_beta0p06_sigma0p18_gamma0p1.csv | Peak I 30328 at day 33
+[34/125] Running β=0.06, σ=0.18, γ=0.11
+    Saved seir_u_beta0p06_sigma0p18_gamma0p11.csv | Peak I 27823 at day 31
+[35/125] Running β=0.06, σ=0.18, γ=0.12
+    Saved seir_u_beta0p06_sigma0p18_gamma0p12.csv | Peak I 25516 at day 31
+[36/125] Running β=0.06, σ=0.2, γ=0.08
+    Saved seir_u_beta0p06_sigma0p2_gamma0p08.csv | Peak I 36748 at day 32
+[37/125] Running β=0.06, σ=0.2, γ=0.09
+    Saved seir_u_beta0p06_sigma0p2_gamma0p09.csv | Peak I 33474 at day 31
+[38/125] Running β=0.06, σ=0.2, γ=0.1
+    Saved seir_u_beta0p06_sigma0p2_gamma0p1.csv | Peak I 31431 at day 31
+[39/125] Running β=0.06, σ=0.2, γ=0.11
+    Saved seir_u_beta0p06_sigma0p2_gamma0p11.csv | Peak I 29039 at day 30
+[40/125] Running β=0.06, σ=0.2, γ=0.12
+    Saved seir_u_beta0p06_sigma0p2_gamma0p12.csv | Peak I 26980 at day 30
+[41/125] Running β=0.06, σ=0.22, γ=0.08
+    Saved seir_u_beta0p06_sigma0p22_gamma0p08.csv | Peak I 37792 at day 31
+[42/125] Running β=0.06, σ=0.22, γ=0.09
+    Saved seir_u_beta0p06_sigma0p22_gamma0p09.csv | Peak I 34709 at day 30
+[43/125] Running β=0.06, σ=0.22, γ=0.1
+    Saved seir_u_beta0p06_sigma0p22_gamma0p1.csv | Peak I 32441 at day 29
+[44/125] Running β=0.06, σ=0.22, γ=0.11
+    Saved seir_u_beta0p06_sigma0p22_gamma0p11.csv | Peak I 30150 at day 29
+[45/125] Running β=0.06, σ=0.22, γ=0.12
+    Saved seir_u_beta0p06_sigma0p22_gamma0p12.csv | Peak I 28119 at day 30
+[46/125] Running β=0.06, σ=0.24, γ=0.08
+    Saved seir_u_beta0p06_sigma0p24_gamma0p08.csv | Peak I 38814 at day 29
+[47/125] Running β=0.06, σ=0.24, γ=0.09
+    Saved seir_u_beta0p06_sigma0p24_gamma0p09.csv | Peak I 35819 at day 29
+[48/125] Running β=0.06, σ=0.24, γ=0.1
+    Saved seir_u_beta0p06_sigma0p24_gamma0p1.csv | Peak I 33421 at day 29
+[49/125] Running β=0.06, σ=0.24, γ=0.11
+    Saved seir_u_beta0p06_sigma0p24_gamma0p11.csv | Peak I 30986 at day 29
+[50/125] Running β=0.06, σ=0.24, γ=0.12
+    Saved seir_u_beta0p06_sigma0p24_gamma0p12.csv | Peak I 28723 at day 29
+[51/125] Running β=0.07, σ=0.16, γ=0.08
+    Saved seir_u_beta0p07_sigma0p16_gamma0p08.csv | Peak I 35708 at day 33
+[52/125] Running β=0.07, σ=0.16, γ=0.09
+    Saved seir_u_beta0p07_sigma0p16_gamma0p09.csv | Peak I 32790 at day 32
+[53/125] Running β=0.07, σ=0.16, γ=0.1
+    Saved seir_u_beta0p07_sigma0p16_gamma0p1.csv | Peak I 30639 at day 32
+[54/125] Running β=0.07, σ=0.16, γ=0.11
+    Saved seir_u_beta0p07_sigma0p16_gamma0p11.csv | Peak I 28200 at day 32
+[55/125] Running β=0.07, σ=0.16, γ=0.12
+    Saved seir_u_beta0p07_sigma0p16_gamma0p12.csv | Peak I 26047 at day 31
+[56/125] Running β=0.07, σ=0.18, γ=0.08
+    Saved seir_u_beta0p07_sigma0p18_gamma0p08.csv | Peak I 37149 at day 31
+[57/125] Running β=0.07, σ=0.18, γ=0.09
+    Saved seir_u_beta0p07_sigma0p18_gamma0p09.csv | Peak I 34357 at day 30
+[58/125] Running β=0.07, σ=0.18, γ=0.1
+    Saved seir_u_beta0p07_sigma0p18_gamma0p1.csv | Peak I 31977 at day 30
+[59/125] Running β=0.07, σ=0.18, γ=0.11
+    Saved seir_u_beta0p07_sigma0p18_gamma0p11.csv | Peak I 29614 at day 31
+[60/125] Running β=0.07, σ=0.18, γ=0.12
+    Saved seir_u_beta0p07_sigma0p18_gamma0p12.csv | Peak I 27499 at day 29
+[61/125] Running β=0.07, σ=0.2, γ=0.08
+    Saved seir_u_beta0p07_sigma0p2_gamma0p08.csv | Peak I 38298 at day 29
+[62/125] Running β=0.07, σ=0.2, γ=0.09
+    Saved seir_u_beta0p07_sigma0p2_gamma0p09.csv | Peak I 35520 at day 29
+[63/125] Running β=0.07, σ=0.2, γ=0.1
+    Saved seir_u_beta0p07_sigma0p2_gamma0p1.csv | Peak I 32940 at day 29
+[64/125] Running β=0.07, σ=0.2, γ=0.11
+    Saved seir_u_beta0p07_sigma0p2_gamma0p11.csv | Peak I 31004 at day 29
+[65/125] Running β=0.07, σ=0.2, γ=0.12
+    Saved seir_u_beta0p07_sigma0p2_gamma0p12.csv | Peak I 29153 at day 28
+[66/125] Running β=0.07, σ=0.22, γ=0.08
+    Saved seir_u_beta0p07_sigma0p22_gamma0p08.csv | Peak I 39872 at day 28
+[67/125] Running β=0.07, σ=0.22, γ=0.09
+    Saved seir_u_beta0p07_sigma0p22_gamma0p09.csv | Peak I 36740 at day 28
+[68/125] Running β=0.07, σ=0.22, γ=0.1
+    Saved seir_u_beta0p07_sigma0p22_gamma0p1.csv | Peak I 34402 at day 28
+[69/125] Running β=0.07, σ=0.22, γ=0.11
+    Saved seir_u_beta0p07_sigma0p22_gamma0p11.csv | Peak I 32081 at day 28
+[70/125] Running β=0.07, σ=0.22, γ=0.12
+    Saved seir_u_beta0p07_sigma0p22_gamma0p12.csv | Peak I 30057 at day 27
+[71/125] Running β=0.07, σ=0.24, γ=0.08
+    Saved seir_u_beta0p07_sigma0p24_gamma0p08.csv | Peak I 40647 at day 27
+[72/125] Running β=0.07, σ=0.24, γ=0.09
+    Saved seir_u_beta0p07_sigma0p24_gamma0p09.csv | Peak I 37768 at day 27
+[73/125] Running β=0.07, σ=0.24, γ=0.1
+    Saved seir_u_beta0p07_sigma0p24_gamma0p1.csv | Peak I 35506 at day 27
+[74/125] Running β=0.07, σ=0.24, γ=0.11
+    Saved seir_u_beta0p07_sigma0p24_gamma0p11.csv | Peak I 33157 at day 26
+[75/125] Running β=0.07, σ=0.24, γ=0.12
+    Saved seir_u_beta0p07_sigma0p24_gamma0p12.csv | Peak I 30990 at day 26
+[76/125] Running β=0.08, σ=0.16, γ=0.08
+    Saved seir_u_beta0p08_sigma0p16_gamma0p08.csv | Peak I 36646 at day 31
+[77/125] Running β=0.08, σ=0.16, γ=0.09
+    Saved seir_u_beta0p08_sigma0p16_gamma0p09.csv | Peak I 34314 at day 30
+[78/125] Running β=0.08, σ=0.16, γ=0.1
+    Saved seir_u_beta0p08_sigma0p16_gamma0p1.csv | Peak I 31553 at day 30
+[79/125] Running β=0.08, σ=0.16, γ=0.11
+    Saved seir_u_beta0p08_sigma0p16_gamma0p11.csv | Peak I 29411 at day 29
+[80/125] Running β=0.08, σ=0.16, γ=0.12
+    Saved seir_u_beta0p08_sigma0p16_gamma0p12.csv | Peak I 27510 at day 30
+[81/125] Running β=0.08, σ=0.18, γ=0.08
+    Saved seir_u_beta0p08_sigma0p18_gamma0p08.csv | Peak I 38538 at day 29
+[82/125] Running β=0.08, σ=0.18, γ=0.09
+    Saved seir_u_beta0p08_sigma0p18_gamma0p09.csv | Peak I 35716 at day 29
+[83/125] Running β=0.08, σ=0.18, γ=0.1
+    Saved seir_u_beta0p08_sigma0p18_gamma0p1.csv | Peak I 33427 at day 29
+[84/125] Running β=0.08, σ=0.18, γ=0.11
+    Saved seir_u_beta0p08_sigma0p18_gamma0p11.csv | Peak I 31023 at day 28
+[85/125] Running β=0.08, σ=0.18, γ=0.12
+    Saved seir_u_beta0p08_sigma0p18_gamma0p12.csv | Peak I 28981 at day 29
+[86/125] Running β=0.08, σ=0.2, γ=0.08
+    Saved seir_u_beta0p08_sigma0p2_gamma0p08.csv | Peak I 39580 at day 28
+[87/125] Running β=0.08, σ=0.2, γ=0.09
+    Saved seir_u_beta0p08_sigma0p2_gamma0p09.csv | Peak I 37308 at day 28
+[88/125] Running β=0.08, σ=0.2, γ=0.1
+    Saved seir_u_beta0p08_sigma0p2_gamma0p1.csv | Peak I 34811 at day 27
+[89/125] Running β=0.08, σ=0.2, γ=0.11
+    Saved seir_u_beta0p08_sigma0p2_gamma0p11.csv | Peak I 32573 at day 27
+[90/125] Running β=0.08, σ=0.2, γ=0.12
+    Saved seir_u_beta0p08_sigma0p2_gamma0p12.csv | Peak I 30556 at day 27
+[91/125] Running β=0.08, σ=0.22, γ=0.08
+    Saved seir_u_beta0p08_sigma0p22_gamma0p08.csv | Peak I 40896 at day 27
+[92/125] Running β=0.08, σ=0.22, γ=0.09
+    Saved seir_u_beta0p08_sigma0p22_gamma0p09.csv | Peak I 38190 at day 26
+[93/125] Running β=0.08, σ=0.22, γ=0.1
+    Saved seir_u_beta0p08_sigma0p22_gamma0p1.csv | Peak I 35767 at day 27
+[94/125] Running β=0.08, σ=0.22, γ=0.11
+    Saved seir_u_beta0p08_sigma0p22_gamma0p11.csv | Peak I 33774 at day 26
+[95/125] Running β=0.08, σ=0.22, γ=0.12
+    Saved seir_u_beta0p08_sigma0p22_gamma0p12.csv | Peak I 31784 at day 26
+[96/125] Running β=0.08, σ=0.24, γ=0.08
+    Saved seir_u_beta0p08_sigma0p24_gamma0p08.csv | Peak I 42001 at day 26
+[97/125] Running β=0.08, σ=0.24, γ=0.09
+    Saved seir_u_beta0p08_sigma0p24_gamma0p09.csv | Peak I 39550 at day 26
+[98/125] Running β=0.08, σ=0.24, γ=0.1
+    Saved seir_u_beta0p08_sigma0p24_gamma0p1.csv | Peak I 37046 at day 25
+[99/125] Running β=0.08, σ=0.24, γ=0.11
+    Saved seir_u_beta0p08_sigma0p24_gamma0p11.csv | Peak I 34578 at day 26
+[100/125] Running β=0.08, σ=0.24, γ=0.12
+    Saved seir_u_beta0p08_sigma0p24_gamma0p12.csv | Peak I 32541 at day 25
+[101/125] Running β=0.09, σ=0.16, γ=0.08
+    Saved seir_u_beta0p09_sigma0p16_gamma0p08.csv | Peak I 37664 at day 29
+[102/125] Running β=0.09, σ=0.16, γ=0.09
+    Saved seir_u_beta0p09_sigma0p16_gamma0p09.csv | Peak I 35150 at day 29
+[103/125] Running β=0.09, σ=0.16, γ=0.1
+    Saved seir_u_beta0p09_sigma0p16_gamma0p1.csv | Peak I 32915 at day 28
+[104/125] Running β=0.09, σ=0.16, γ=0.11
+    Saved seir_u_beta0p09_sigma0p16_gamma0p11.csv | Peak I 30861 at day 29
+[105/125] Running β=0.09, σ=0.16, γ=0.12
+    Saved seir_u_beta0p09_sigma0p16_gamma0p12.csv | Peak I 28742 at day 28
+[106/125] Running β=0.09, σ=0.18, γ=0.08
+    Saved seir_u_beta0p09_sigma0p18_gamma0p08.csv | Peak I 39538 at day 28
+[107/125] Running β=0.09, σ=0.18, γ=0.09
+    Saved seir_u_beta0p09_sigma0p18_gamma0p09.csv | Peak I 36996 at day 27
+[108/125] Running β=0.09, σ=0.18, γ=0.1
+    Saved seir_u_beta0p09_sigma0p18_gamma0p1.csv | Peak I 34231 at day 27
+[109/125] Running β=0.09, σ=0.18, γ=0.11
+    Saved seir_u_beta0p09_sigma0p18_gamma0p11.csv | Peak I 32375 at day 27
+[110/125] Running β=0.09, σ=0.18, γ=0.12
+    Saved seir_u_beta0p09_sigma0p18_gamma0p12.csv | Peak I 30508 at day 27
+[111/125] Running β=0.09, σ=0.2, γ=0.08
+    Saved seir_u_beta0p09_sigma0p2_gamma0p08.csv | Peak I 41022 at day 27
+[112/125] Running β=0.09, σ=0.2, γ=0.09
+    Saved seir_u_beta0p09_sigma0p2_gamma0p09.csv | Peak I 38167 at day 26
+[113/125] Running β=0.09, σ=0.2, γ=0.1
+    Saved seir_u_beta0p09_sigma0p2_gamma0p1.csv | Peak I 35956 at day 26
+[114/125] Running β=0.09, σ=0.2, γ=0.11
+    Saved seir_u_beta0p09_sigma0p2_gamma0p11.csv | Peak I 33428 at day 26
+[115/125] Running β=0.09, σ=0.2, γ=0.12
+    Saved seir_u_beta0p09_sigma0p2_gamma0p12.csv | Peak I 31496 at day 25
+[116/125] Running β=0.09, σ=0.22, γ=0.08
+    Saved seir_u_beta0p09_sigma0p22_gamma0p08.csv | Peak I 41811 at day 26
+[117/125] Running β=0.09, σ=0.22, γ=0.09
+    Saved seir_u_beta0p09_sigma0p22_gamma0p09.csv | Peak I 39550 at day 25
+[118/125] Running β=0.09, σ=0.22, γ=0.1
+    Saved seir_u_beta0p09_sigma0p22_gamma0p1.csv | Peak I 37426 at day 25
+[119/125] Running β=0.09, σ=0.22, γ=0.11
+    Saved seir_u_beta0p09_sigma0p22_gamma0p11.csv | Peak I 34797 at day 25
+[120/125] Running β=0.09, σ=0.22, γ=0.12
+    Saved seir_u_beta0p09_sigma0p22_gamma0p12.csv | Peak I 33026 at day 24
+[121/125] Running β=0.09, σ=0.24, γ=0.08
+    Saved seir_u_beta0p09_sigma0p24_gamma0p08.csv | Peak I 43193 at day 25
+[122/125] Running β=0.09, σ=0.24, γ=0.09
+    Saved seir_u_beta0p09_sigma0p24_gamma0p09.csv | Peak I 40845 at day 24
+[123/125] Running β=0.09, σ=0.24, γ=0.1
+    Saved seir_u_beta0p09_sigma0p24_gamma0p1.csv | Peak I 38421 at day 24
+[124/125] Running β=0.09, σ=0.24, γ=0.11
+    Saved seir_u_beta0p09_sigma0p24_gamma0p11.csv | Peak I 36280 at day 24
+[125/125] Running β=0.09, σ=0.24, γ=0.12
+    Saved seir_u_beta0p09_sigma0p24_gamma0p12.csv | Peak I 33858 at day 24
+Done.
+
